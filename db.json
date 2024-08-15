@@ -1,33 +1,42 @@
 {
+  "clients": [
+    {
+      "id": 1,
+      "clientName": "Nico Anzo",
+      "priority": "top priority",
+      "employees": 52
+    },
+    {
+      "id": 2,
+      "clientName": "Beta",
+      "priority": "even higher",
+      "employees": 152
+    }
+  ],
   "projects": [
     {
       "id": 1,
       "title": "Module 2 Project",
       "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "clientId": 1
     },
     {
       "id": 2,
       "title": "Module 3 Project",
       "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "clientId": 1
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "Module 2 Project with Antonia",
+      "description": "abc",
+      "clientId": 2
+    },
+    {
+      "title": "Test 1",
+      "description": "abc",
+      "clientId": 2,
+      "id": 4
     }
   ]
 }
